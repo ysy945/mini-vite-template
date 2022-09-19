@@ -1,7 +1,7 @@
 import { defineConfig } from "mini-vite-ysy";
 import path from "path";
 //如果需要热更新请下载
-import react from "vite-plugin-refresh-react";
+//import react from "vite-plugin-refresh-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,7 +17,7 @@ export default defineConfig({
     },
   },
   plugins: [
-    ...react(),
+    //...react(),
     {
       name: "vite:virtual-module",
       enforce: "pre",
