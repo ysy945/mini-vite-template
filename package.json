@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mini-vite-ysy": "^1.0.13",
+    "mini-vite-ysy": "^1.0.13"
   },
   "devDependencies": {
     "@types/node": "^18.7.18",
